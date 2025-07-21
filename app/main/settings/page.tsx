@@ -163,7 +163,7 @@ export default function WorkSettingsPage() {
       {/* Page Content */}
       <main className="w-full min-h-screen bg-gray-50 py-10 px-4 md:px-12 lg:px-32 xl:px-48">
         <img src="/assets/settings.png" alt="Workspace settings visual" />
-        <h1 className="text-3xl font-bold mb-2 text-black">Workspace settings</h1>
+        <h1 className="text-3xl font-bold mb-2 text-black">Settings</h1>
         <p className="text-gray-600 mb-8 max-w-full">
           Customize your daSalon environment to fit your business needs. From configuring staff roles and permissions to adjusting business hours and notification preferences,
           workspace settings help you maintain control and consistency across your entire team.

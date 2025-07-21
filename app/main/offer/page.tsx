@@ -213,8 +213,8 @@ export default function MembershipPage() {
 
       {/* Page Content */}
       <main className="w-full min-h-screen bg-gray-50 py-10 px-4 md:px-12 lg:px-32 xl:px-48">
-        <img src="/assets/offerpromote.png" alt="Gift Cards" />
-        <h1 className="text-3xl font-bold mb-2 text-black">Membership</h1>
+        <img src="/assets/offpromote.png" alt="Gift Cards" />
+        <h1 className="text-3xl font-bold mb-2 text-black">Offer</h1>
         <p className="text-gray-600 mb-8 max-w-full">
           Build client loyalty and increase recurring revenue with customizable membership packages.
           Offer exclusive benefits, manage member details, and track usage seamlessly—daSalon makes

@@ -241,8 +241,8 @@ export default function MarketingPage(): React.JSX.Element {
 
       {/* Page Content */}
       <main className="w-full min-h-screen bg-gray-50 py-10 px-4 md:px-12 lg:px-32 xl:px-48">
-        <img src="/assets/marketing.gif" alt="Marketing" />
-        <h1 className="text-3xl font-bold mb-2 text-black">Marketing</h1>
+        <img src="/assets/promote.png" alt="Marketing" />
+        <h1 className="text-3xl font-bold mb-2 text-black">Promote</h1>
         <p className="text-gray-600 mb-8 max-w-full">
           Grow your salon with built-in tools to promote services, engage clients, and drive repeat visits—all in one place. From sending targeted campaigns to offering personalized deals, daSalon helps you stay connected and grow your business effortlessly.
         </p>

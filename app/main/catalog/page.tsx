@@ -220,8 +220,8 @@ export default function ServicesPage() {
 
       {/* Page Content */}
       <main className="w-full min-h-screen bg-gray-50 py-10 px-4 md:px-12 lg:px-32 xl:px-48 ">
-        <img src="/assets/service.gif" alt="Service illustration" />
-        <h1 className="text-3xl font-bold mb-2 text-black">Services</h1>
+        <img src="/assets/catalog.png" alt="Service illustration" />
+        <h1 className="text-3xl font-bold mb-2 text-black">Catalog</h1>
         <p className="text-gray-600 mb-8 max-w-full">
           Effortlessly organize and customize the services you offer with daSalon. From setting prices and durations to assigning team members and categories, manage all your salon services in one place.
           Keep your menu clear, up to date, and tailored to your business needs.

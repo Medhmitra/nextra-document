@@ -158,7 +158,7 @@ export default function TeamsPage() {
       {/* Page Content */}
       <main className="w-full min-h-screen bg-gray-50 py-10 px-4 md:px-12 lg:px-32 xl:px-48">
         <img src="/assets/staff.png" alt="Team visual" />
-        <h1 className="text-3xl font-bold mb-2 text-black">Teams</h1>
+        <h1 className="text-3xl font-bold mb-2 text-black">Staff</h1>
         <p className="text-gray-600 mb-8 max-w-full">
           Empower your staff with tools to manage availability, shifts, and responsibilities effortlessly. From assigning appointments and customizing working hours to tracking performance,
           daSalon helps you organize your team and keep your business running smoothly.
