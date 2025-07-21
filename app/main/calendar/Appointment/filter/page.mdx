@@ -1,0 +1,205 @@
+---
+title: Filter Appointments
+description: How to filter appointments in daSalon by venue, staff, or status.
+layout: raw
+---
+
+import { FaThumbsUp, FaThumbsDown } from "react-icons/fa"
+import Link from "next/link"
+
+<div className="mdx-content">
+
+## Filter Appointments
+
+<h1 className="text-3xl font-bold text-gray-900 mb-4">Filter Appointments</h1>
+
+In this guide, you’ll learn how to narrow down your appointment view using filters for better visibility and management.
+
+## Video Tutorial
+
+<h3 className="text-xl font-medium text-gray-800 mb-2">Video Tutorial</h3>
+
+<iframe
+  width="100%"
+  height="400"
+  title="Filter appointments tutorial"
+  allowFullScreen
+  className="rounded-lg"
+/>
+
+---
+
+## **Filter by Venue, Staff, or Status**
+
+*Purpose*: Easily find specific appointments and manage your schedule with precision.
+
+### Steps:
+
+## Filtering by Venue
+<h3 className="text-xl font-medium text-gray-800 mb-2">Filtering by Venue</h3>
+
+*Use this when you want to see appointments for a specific salon branch.*
+
+### Steps:
+
+❶ **Navigate to Calendar**
+    
+    From the dashboard, click on the  **Calendar** option in the left sidebar.
+    
+❷ **Access the Filter Options**
+    
+    Once on the Calendar page, look at the top navigation bar near the "Calendar" heading.
+    
+    You’ll see three filter dropdowns: **Venue**, **Staff**, and **Status**. Click the **first dropdown** labeled **Venue**.
+    
+❸ **Choose a Venue**
+    
+    A dropdown list of all available salon venues will appear.
+    
+    Select the venue you want to view.
+    
+❹ **View Results**
+    
+    The calendar now refreshes to show only **appointments scheduled at the selected venue**.
+    
+    This helps you focus on a single location's activities.
+    
+❺ **Clear the Filter**
+    
+    To reset the view, simply click the **Venue dropdown again** and either:
+    
+    - Click the same venue again to deselect, or
+    - Select "All Venues" or leave the field empty (depending on system behavior).
+
+---
+
+## **Filtering by Staff**
+<h3 className="text-xl font-medium text-gray-800 mb-2">Filtering by Staff</h3>
+
+*Use this when you want to focus on one team member’s appointments.*
+
+### Steps:
+
+❶ **Open the Calendar**
+    
+    From the main page, click **Calendar** in the left sidebar.
+    
+❷ **Select the Staff Filter**
+    
+    On the top navigation of the Calendar page, click the **second dropdown**, which is labeled **Staff**.
+    
+❸ **Choose a Staff Member**
+    
+    A dropdown list will appear showing all active staff.
+    
+    Click the name of the team member whose schedule you want to check.
+    
+❹ **View Results**
+    
+    The calendar will now show **only appointments assigned to that staff member**.
+    
+❺ **Clear the Filter**
+    
+    To remove the filter, click the **Staff dropdown** again and reset it to show all staff schedules.
+    
+
+---
+
+## **Filtering by Appointment Status**
+<h3 className="text-xl font-medium text-gray-800 mb-2">Filtering by Appointment Status</h3>
+
+*Use this to filter by appointment state like Confirmed, Cancelled, etc.*
+
+### Steps:
+
+❶ **Go to Calendar**
+    
+    Open the **Calendar** page from the left navigation menu.
+    
+❷ **Click on the Status Dropdown**
+    
+    On the top right, next to Venue and Staff filters, you’ll see the **third dropdown** – **Status**.
+    
+❸ **Select a Status**
+    
+    Available status options include:
+    
+    - **New** – Recently created appointments awaiting confirmation
+    - **Confirmed** – Approved appointments scheduled by the salon
+    - **Completed** – Services already completed
+    - **Cancelled** – Appointments canceled by the salon or client
+    - **No Show** – Appointments missed by the client without cancellation
+❹ **View the Filtered Results**
+    
+    The calendar will update to display appointments **matching only the selected status**, giving you a clear snapshot.
+    
+❺ **Clear the Filter**
+    
+    Click the **Status dropdown again** and reset it by deselecting or choosing "All Statuses".
+    
+
+---
+
+<div className="space-y-4 mt-6">
+
+<div className="my-10 border-t border-gray-200" />
+
+## More questions about this
+
+<h3 className="text-xl font-semibold text-black mb-4 mt-10"> More questions about this?</h3>
+</div>
+
+<div className="space-y-4 mt-6">
+  <details className="bg-white rounded-md p-4 border border-gray-300">
+    <summary
+      className="font-medium text-base text-gray-900"
+      style={{
+        backgroundColor: 'transparent',
+        outline: 'none',
+        cursor: 'pointer',
+        userSelect: 'none',
+        listStyle: 'none',
+      }}
+    >
+      Can I combine filters?
+    </summary>
+    <p className="mt-2 text-sm text-gray-700">
+      Yes, you can apply multiple filters (e.g., venue + staff + status) at once to find exactly what you’re looking for.
+    </p>
+  </details>
+
+  <details className="bg-white rounded-md p-4 border border-gray-300">
+    <summary
+      className="font-medium text-base text-gray-900"
+      style={{
+        backgroundColor: 'transparent',
+        outline: 'none',
+        cursor: 'pointer',
+        userSelect: 'none',
+        listStyle: 'none',
+      }}
+    >
+      Why are no appointments showing after applying filters?
+    </summary>
+    <p className="mt-2 text-sm text-gray-700">
+      This could happen if the selected filters don’t match any records. Try resetting the filters or adjusting the criteria.
+    </p>
+  </details>
+</div>
+
+---
+
+<div className="mdx-content mt-10">
+
+Was this article helpful?
+
+<div style={{ display: 'flex', gap: '1rem' }}>
+  <button style={{ padding: '0.5rem', borderRadius: '9999px', backgroundColor: '#f0f0f0' }}>
+    <FaThumbsUp />
+  </button>
+  <button style={{ padding: '0.5rem', borderRadius: '9999px', backgroundColor: '#f0f0f0' }}>
+    <FaThumbsDown />
+  </button>
+</div>
+</div>
+</div>
