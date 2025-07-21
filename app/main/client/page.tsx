@@ -154,7 +154,7 @@ export default function ClientsPage(): React.JSX.Element {
         <h1 className="text-3xl font-bold mb-2 text-black">Clients</h1>
         <p className="text-gray-600 mb-8 max-w-full">
           Keep track of your client details, appointment history, preferences,
-          and communication all in one place. Whether you're adding new clients,
+          and communication all in one place. Whether you&#39re adding new clients,
           updating existing profiles, or reviewing visit records, daSalon makes
           client management simple and organized.
         </p>

@@ -176,8 +176,7 @@ export default function CalendarPage(): React.JSX.Element {
         <p className="text-gray-600 mb-8 max-w-full">
           Take charge of your schedule with daSalon. Manage appointments, team
           availability, and resources in one place with a flexible calendar
-          built for beauty and wellness businesses.
-        </p>
+          built for beauty and wellness businesses. </p>
         <div className="flex flex-col md:flex-row gap-6 w-full">
           {/* Sidebar */}
           <aside className="md:w-1/4 w-full bg-white border rounded-xl shadow-sm p-4 h-fit md:h-[calc(100vh-6rem)] sticky top-24 overflow-y-auto">
