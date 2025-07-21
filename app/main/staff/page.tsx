@@ -11,7 +11,6 @@ import Link from "next/link";
 interface HelpItem {
   title: string;
   description: string;
-  image: string;
   Link: string;
 }
 
@@ -29,21 +28,21 @@ const helpTopics: HelpTopic[] = [
         title: "Add a Staff Member",
         description:
           "- Keeps complete profiles for each team member. Easily assign responsibilities",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "staff/addstaff",
       },
       {
         title: "Edit Staff Details",
         description:
           "Keep info accurate, update job roles, change commission strategy",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "staff/editstaff",
       },
       {
         title: "View Staff Details",
         description:
           " Helps in performance reviews, salary calculations, and client assignment logic.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "staff/viewstaff",
       },
     ],
@@ -55,14 +54,14 @@ const helpTopics: HelpTopic[] = [
         title: "Add Attendance",
         description:
           "Ensures accurate payroll, monitors punctuality, tracks work hours and availability",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "staff/addattendance",
       },
       {
         title: "View Attendance",
         description:
           "Review historical attendance records, investigate lateness or leave patterns",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "staff/viewattendance",
       },
     ],
@@ -74,21 +73,21 @@ const helpTopics: HelpTopic[] = [
         title: "Add Leave",
         description:
           "Schedule staff shifts around leaves, maintain service quality during absences",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "staff/addleave",
       },
       {
         title: "Edit Leave",
         description:
           " Adjust plans due to changes or mistakes in leave details",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "staff/editleave",
       },
       {
         title: "Delete Leave",
         description:
           "Clean up incorrect or duplicate entries",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "staff/deleteleave",
       },
     ],

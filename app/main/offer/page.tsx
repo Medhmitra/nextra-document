@@ -10,7 +10,6 @@ import Link from "next/link";
 type HelpItem = {
   title: string;
   description: string;
-  image: string;
   Link: string;
 };
 
@@ -27,28 +26,28 @@ const helpTopics: HelpTopic[] = [
         title: "Create Voucher",
         description:
           "Promotes prepaid bookings and encourages multiple visits. It builds loyalty and guarantees future business.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "offer/createvoucher",
       },
       {
         title: "Edit Voucher",
         description:
           "Keep vouchers aligned with changing offerings or new pricing strategies.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "offer/editvoucher",
       },
       {
         title: "View Voucher Details",
         description:
           "Track performance and client behavior to see what works best.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "offer/viewvoucher",
       },
       {
         title: "Delete Voucher",
         description:
           " Remove outdated offers to maintain a clean catalog.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "offer/deletevoucher",
       },
     ],
@@ -60,28 +59,28 @@ const helpTopics: HelpTopic[] = [
         title: "Create memberships",
         description:
           " Offers elite experience to your loyal clients and creates consistent recurring revenue for your salon.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "offer/createmembership",
       },
       {
         title: "Edit Membership",
         description:
           "Tailor your memberships to evolving business goals or special promotions.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "offer/editmembership",
       },
       {
         title: "View Membership Details",
         description:
           "Monitor how each membership is structured and where it's available.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "offer/viewmembership",
       },
       {
         title: "Delete Membership",
         description:
           "Clean up expired or outdated membership options.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "offer/deletemembership",
       },
     ],
@@ -93,28 +92,28 @@ const helpTopics: HelpTopic[] = [
         title: "Create PromoCode",
         description:
           "Drives quick decisions and increases urgency to book. Easy to share via SMS or email campaigns.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "offer/createpromocode",
       },
       {
         title: "Edit PromoCode",
         description:
           "Quickly adjust dates, codes, or service scope based on campaign results.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "offer/editpromocode",
       },
       {
         title: "View PromoCode Details",
         description:
           "Helps understand promo performance and track redemption trends.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "offer/viewpromocode",
       },
       {
         title: "Delete PromoCode",
         description:
           "Keep only valid and live codes to avoid confusion.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "offer/deletepromocode",
       },
     ],
@@ -126,28 +125,28 @@ const helpTopics: HelpTopic[] = [
         title: "Create a Gift Card",
         description:
           "To design and launch a new gift card that can be sold to clients either online or in-store. This helps in boosting sales, offering gifting options, and increasing brand engagement.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "offer/creategiftcard",
       },
       {
         title: "Edit Gift Card",
         description:
           "To update existing gift card details such as pricing, description, or venue availability. This is useful when offering promotions, correcting information, or adjusting to business changes.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "offer/editgiftcard",
       },
       {
         title: "View Gift Card Details",
         description:
           "To review complete gift card information including pricing, availability, and usage history by clients. This helps salon partners monitor sales performance and manage client queries.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "offer/viewgiftcard",
       },
       {
         title: " Delete Gift Card",
         description:
           "To remove outdated, incorrect, or discontinued gift cards from the offers list. This keeps the catalog clean and avoids client confusion.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "offer/deletegiftcard",
       },
     ],

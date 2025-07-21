@@ -10,7 +10,6 @@ import Link from "next/link";
 interface HelpItem {
   title: string;
   description: string;
-  image: string;
   Link: string;
 }
 
@@ -28,53 +27,49 @@ const helpTopics: HelpTopic[] = [
         title: "Create appointments",
         description:
           "Start scheduling appointments with detailed client and service information.",
-        image: "/assets/generated-image.png",
+        
         Link: "calendar/Appointment/create-appointment",
       },
       {
         title: "Update appointments",
         description:
           "Make changes to existing appointments, such as updating service details, changing team members, or adjusting duration to reflect client needs.",
-        image: "/assets/update.png",
+        
         Link: "calendar/Appointment/update",
       },
       {
         title: "Reschedule appointments",
         description:
           "Easily move appointments to a different date or time while keeping clients informed and your calendar up to date.",
-        image: "/assets/update.png",
+        
         Link: "calendar/Appointment/reschedule",
       },
       {
         title: "Cancel appointments",
         description:
           "Cancel appointments in just a few clicks with the option to notify clients and track cancellations for better schedule management.",
-        image:
-          "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "calendar/Appointment/cancel",
       },
       {
         title: "Complete appointments",
         description:
           "Mark appointments as complete to finalize the visit, trigger follow-ups, and maintain accurate client records and service history.",
-        image:
-          "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "calendar/Appointment/complete",
       },
       {
         title: "No-Show appointments",
         description:
           "Helps analyze client reliability, avoid no-show patterns, and plan future bookings better.",
-        image:
-          "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "calendar/Appointment/no-show",
       },
       {
         title: "Delete appointments",
         description:
           "Keeps your records clean without losing important business data",
-        image:
-          "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "calendar/Appointment/delete",
       },
     ],
@@ -86,29 +81,28 @@ const helpTopics: HelpTopic[] = [
         title: "Filter by Venue, Staff, or Status",
         description:
           "Start scheduling appointments with detailed client and service information.",
-        image: "/assets/generated-image.png",
+        
         Link: "calendar/Appointment/filter",
       },
       {
         title: "Pick Date Range",
         description:
              "See appointments for today, previous days, upcoming days, or pick a custom date range to view past or future bookings.",
-        image: "/assets/update.png",
+        
         Link: "calendar/Appointment/daterange",
       },
       {
         title: "Switch Between Day or Week View",
         description:
           "Zoom into a single day for detailed appointment slots or step back and see the full week’s schedule across your team.",
-        image: "/assets/update.png",
+        
         Link:"calendar/Appointment/day",
       },
       {
         title: "Click Any Appointment for Full Control",
         description:
           "Manage all aspects of an appointment — from editing and rescheduling to canceling, deleting, and checking out.",
-        image:
-          "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "calendar/Appointment/appoint",
       },
     ],

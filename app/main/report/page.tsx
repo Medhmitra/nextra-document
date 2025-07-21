@@ -11,7 +11,6 @@ import Link from "next/link";
 interface HelpItem {
   title: string;
   description: string;
-  image: string;
   Link: string;
 }
 
@@ -28,85 +27,18 @@ const helpTopics: HelpTopic[] = [
         title: "Track your business performance with Insights",
         description:
           "Get a clear overview of how your business is doing with real-time insights on sales, client activity, staff performance, and more. Identify trends, opportunities, and areas to improve—right from your dashboard.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "/create-repeatappointment",
       },
       {
         title: "Organizing your reports",
         description:
           "Easily manage, categorize, and access the reports you need most. daSalon helps you keep your reporting workflow efficient so you can focus on decisions, not digging through data.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
+        
         Link: "/create-repeatappointment",
       },
-      {
-        title: "Create custom reports",
-        description:
-          "Generate detailed reports tailored to your specific business needs. From custom date ranges to service-level breakdowns, design reports that offer the exact insights you’re looking for.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
-        Link: "/update",
-      },
-      {
-        title: "Manage report access",
-        description:
-          "Control who can view or edit business reports. Assign permission levels for different team members, ensuring sensitive data is only accessible to the right people.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
-        Link: "/update",
-      },
-    ],
-  },
-  {
-    category: "Preset reports",
-    items: [
-      {
-        title: "Client insights report",
-        description:
-          "Understand your client base better with detailed reports on visit frequency, service preferences, booking habits, and more—helping you improve retention and personalize service.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
-        Link: "/create",
-      },
-      {
-        title: "Client summary report",
-        description:
-          "Get a quick snapshot of each client’s history, including total spend, appointment count, last visit date, and contact information—all in one simple report.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
-        Link: "/create",
-      },
-      {
-        title: "Finance summary report",
-        description:
-          "View a concise breakdown of your business's financials, including revenue, outstanding balances, expenses, and taxes—ideal for monthly reviews or accountant handovers.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
-        Link: "/create",
-      },
-      {
-        title: "Sales summary report",
-        description:
-          "Monitor overall sales performance, track popular services and products, and compare trends over time to see what’s driving your revenue.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
-        Link: "/create",
-      },
-      {
-        title: "Payments summary report",
-        description:
-          "Access a clear overview of all payments received, categorized by payment method, transaction status, and service or product type.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
-        Link: "/create",
-      },
-      {
-        title: "Payment transactions report",
-        description:
-          "Drill down into individual payment transactions—see dates, clients, amounts, and methods used—perfect for resolving disputes or reconciling records.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
-        Link: "/create",
-      },
-      {
-        title: "Sales by time period report",
-        description:
-          "Analyze sales patterns across daily, weekly, or monthly time frames to spot busy periods, slower days, and long-term growth trends.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
-        Link: "/create",
-      },
-    ],
+      ],
   },
 ];
 
@@ -186,7 +118,7 @@ export default function ReportPage() {
         <img src="/assets/report.gif"/>
         <h1 className="text-3xl font-bold mb-2">Report</h1>
         <p className="text-gray-600 mb-8 max-w-full">
-        Monitor the performance of your salon with detailed insights into sales, appointments, client activity, staff performance, and more. Whether you're tracking revenue, analyzing trends, or generating custom reports,
+        Monitor the performance of your salon with detailed insights into sales, appointments, client activity, staff performance, and more. Whether you&#39re tracking revenue, analyzing trends, or generating custom reports,
          daSalon makes data-driven decisions easy and accessible.
         </p>
         <div className="flex flex-col md:flex-row gap-6 w-full">
@@ -226,11 +158,11 @@ export default function ReportPage() {
                         className="hover:shadow-lg transition-shadow cursor-pointer"
                       >
                         <CardContent className="flex items-start gap-4 p-4">
-                          <img
+                          {/*<img
                             src={item.image}
                             alt={item.title}
                             className="w-24 h-16 rounded-md object-cover border"
-                          />
+                          />*/}
                           <div>
                             <h3 className="text-lg font-semibold">
                               {item.title}

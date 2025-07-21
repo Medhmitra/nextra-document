@@ -11,7 +11,6 @@ import Link from "next/link";
 interface HelpItem {
   title: string;
   description: string;
-  image: string;
   Link: string;
 }
 
@@ -29,28 +28,28 @@ const helpTopics: HelpTopic[] = [
         title: "Create a New Service",
         description:
           "Allows salons to flexibly add services for different needs and client types. Makes your offerings dynamic and easy to manage.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "catalog/createservice",
       },
       {
         title: "Edit Service",
         description:
           "Keeps your service list up-to-date with changes in staff, pricing, or trends.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+       
         Link: "catalog/editservice",
       },
       {
         title: "View Service Details",
         description:
           "Gives you a complete snapshot of how each service is set up.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "catalog/viewservice",
       },
       {
         title: "Delete services",
         description:
           "Easily remove outdated or discontinued services from your menu while keeping your offerings fresh and relevant.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "catalog/deleteservice",
       },
     ],
@@ -62,28 +61,28 @@ const helpTopics: HelpTopic[] = [
         title: "Create a Book a Look",
         description:
           "Great for marketing and helps clients feel inspired when choosing services. A visual approach to booking.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+       
         Link: "catalog/createbookalook",
       },
       {
         title: "Edit Book a Look",
         description:
           "Keeps your style gallery fresh and relevant.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+       
         Link: "catalog/editbookalook",
       },
       {
         title: "View Book a Look",
         description:
           " Know which styles are trending and who’s providing them.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+       
         Link: "catalog/viewbookalook",
       },
       {
         title: "Delete Book a Lookk",
         description:
           " Remove old or less popular looks to maintain a clean and updated catalog. ",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "catalog/deletebookalook",
       },
     ],
@@ -95,28 +94,28 @@ const helpTopics: HelpTopic[] = [
         title: "Create a Package",
         description:
           "Clients get more value. You earn more per visit.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "catalog/createpackage",
       },
       {
         title: "Edit Package",
         description:
           "Keep up with seasonal offers or staff changes.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "catalog/editpackage",
       },
       {
         title: "View Package Details",
         description:
           "Helps you track which packages are popular and who handles them.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "catalog/viewpackage",
       },
       {
         title: "Delete Package",
         description:
           "Remove outdated or unused packages.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "catalog/deletepackage",
       },
     ],
@@ -128,28 +127,28 @@ const helpTopics: HelpTopic[] = [
         title: "Create a Product",
         description:
           "Build a product catalog that works for both in-store and online selling.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "catalog/createproduct",
       },
       {
         title: "Edit Product",
         description:
           " Adjust for new stock, pricing updates, or changes in availability.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "catalog/editproduct",
       },
       {
         title: "View Product Details",
         description:
           " Helps you track inventory and sales performance in real-time.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "catalog/viewproduct",
       },
       {
         title: "Delete Product",
         description:
           "Remove outdated product.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "catalog/deleteproduct",
       },
     ],

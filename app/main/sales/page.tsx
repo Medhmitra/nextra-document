@@ -10,7 +10,6 @@ import Link from "next/link";
 interface HelpItem {
   title: string;
   description: string;
-  image: string;
   Link: string;
 }
 
@@ -27,49 +26,49 @@ const helpTopics: HelpTopic[] = [
         title: "Create a sale",
         description:
           "Quickly create a new sale by selecting services, assigning staff, and adding client details—all from one simple checkout interface.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "sales/createsale",
       },
       {
         title: "Search & Filter Options",
         description:
           "Quickly find any sale using ID, status, price range, or date.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "sales/Searchfilter",
       },
       {
         title: "Refund a sale",
         description:
           "Process full or partial refunds effortlessly, with options to return services, products, or adjust payment methods.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "sales/refundsale",
       },
       {
         title: "Void a sale",
         description:
           "Remove an incorrect sale permanently from reports. Cannot be undone.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "sales/voidsale",
       },
       {
         title: "Edit a sale",
         description:
           "Change the assigned staff or update sale details post-creation.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "sales/editsale",
       },
       {
         title: "Share Invoice",
         description:
           "Share sale receipts via email, download, or view invoice.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "sales/shareinvoice",
       },
       {
         title: "View Sale & Client Details",
         description:
           "Check sale history and client activity in detail.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "sales/viewsale",
       },
     ],
@@ -81,28 +80,28 @@ const helpTopics: HelpTopic[] = [
         title: "Sales-Services",
         description:
           "To record and manage all service-related sales like spa treatments, haircuts, or other service offerings, including edits, refunds, and invoice tracking.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "sales/servicesale",
       },
       {
         title: "Sales-Packages",
         description:
           "To handle bundled service offerings like bridal or facial packages, allowing users to sell, edit, refund, or void packages and track client info.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "sales/packagesale",
       },
       {
         title: "Sales–Book A Look",
         description:
           " To manage sales of consultation or visual preview services where clients book styling previews or consultations before a full service.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "sales/bookalooksale",
       },
       {
         title: "Sales–Products",
         description:
           " To track and process sales of retail products such as shampoos, conditioners, and other beauty-related merchandise, including refunds and inventory checks.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "sales/productsale",
       },
     ],
@@ -114,21 +113,21 @@ const helpTopics: HelpTopic[] = [
         title: "Sales–Vouchers",
         description:
           "To manage the sale of promotional or prepaid vouchers that clients can redeem for services, including tracking usage and handling edits or refunds.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "sales/vouchersale",
       },
       {
         title: "Sales–Memberships",
         description:
           "To handle membership plan purchases and renewals, monitor benefit usage, and manage changes such as refunds or cancellations.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "sales/membershipsale",
       },
       {
         title: "Sales – Gift Cards",
         description:
           "To issue and manage gift card sales, including tracking card usage, expiry dates, and making adjustments like refunds or voids.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "sales/giftcardsale",
       },
     ],

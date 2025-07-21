@@ -11,7 +11,6 @@ import Link from "next/link";
 type HelpItem = {
   title: string;
   description: string;
-  image: string;
   Link: string;
 };
 
@@ -29,25 +28,21 @@ const helpTopics: HelpTopic[] = [
         title: "View a Review ",
         description:
           "- Clients feel heard when you acknowledge their feedback",
-        image:
-          "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "review/viewreview",
       },
       {
         title: "Report a Review",
         description:
           "Protect your brand from harmful or malicious content",
-        image:
-          "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "review/reportreview",
       },
       {
         title: " Access Client Page from Review",
         description:
           "View Client Details from a Review",
-        image:
-          "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
-        Link: "review/clientpagereview",
+                Link: "review/clientpagereview",
       },
     ],
   },
@@ -120,7 +115,7 @@ export default function ProductPage() {
         <img src="/assets/review.png" alt="Product" />
         <h1 className="text-3xl font-bold mb-2 text-black">Product</h1>
         <p className="text-gray-600 mb-8 max-w-full">
-          Keep your retail offerings organized and up to date with daSalon’s product management tools. From adding new stock to tracking inventory
+          Keep your retail offerings organized and up to date with daSalon&#39s product management tools. From adding new stock to tracking inventory
           levels and sales performance, everything you need to manage your salon products is in one convenient place.
         </p>
         <div className="flex flex-col md:flex-row gap-6 w-full">

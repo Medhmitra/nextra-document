@@ -10,7 +10,6 @@ import Link from "next/link";
 type HelpItem = {
   title: string;
   description: string;
-  image: string;
   Link: string;
 };
 
@@ -27,28 +26,24 @@ const helpTopics: HelpTopic[] = [
         title: "Cash Payment",
         description:
           "Use when the client pays you physically with cash, and you need to record the transaction manually.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
         Link: "payments/cashpayment",
       },
       {
         title: "Card Payment",
         description:
           "For recording payments made via debit or credit cards using a POS machine at the salon.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
         Link: "payments/cardpayment",
       },
       {
         title: "Online Methods",
         description:
           "When the client pays digitally using UPI, Google Pay, PhonePe, or Net Banking, and you want to register it in the system.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
         Link: "payments/onlinepayment",
       },
       {
         title: "Other Payment",
         description:
           "Use this when payments are made using gift cards, third-party vouchers, promo credits, or any other custom method outside the standard cash/card/online flow.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
         Link: "payments/otherpayment",
       },
     ],
@@ -134,7 +129,7 @@ export default function PaymentPage() {
           Easily manage all your payment processes in one place with daSalon.
           From tracking completed sales and processing refunds to managing tips,
           taxes, and payment types—everything is streamlined for accuracy and
-          convenience. Whether you're handling in-person transactions or online
+          convenience. Whether you&#39re handling in-person transactions or online
           bookings, daSalon helps you stay organized, transparent, and in control
           of your business finances.
         </p>

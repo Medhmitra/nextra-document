@@ -10,7 +10,6 @@ import Link from "next/link";
 interface HelpItem {
   title: string;
   description: string;
-  image: string;
   Link: string;
 }
 
@@ -27,21 +26,21 @@ const helpTopics: HelpTopic[] = [
         title: "Create a new workspace ",
         description:
           "Set up a dedicated workspace for your salon or business in just a few clicks. Customize it with your branding, team, and service offerings to start managing operations from day one",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "/create-repeatappointment",
       },
       {
         title: "Update your business details",
         description:
           "Easily edit your salon name, contact information, business category, and other key details to keep your profile accurate and professional across client touchpoints.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "/create-repeatappointment",
       },
       {
         title: "Update your business opening hours ",
         description:
           "Adjust your business hours anytime to reflect seasonal changes, staff availability, or special events. Ensure clients can always book at the right times.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "/update",
       },
     ],
@@ -53,7 +52,7 @@ const helpTopics: HelpTopic[] = [
         title: "Create and manage business locations",
         description:
           "Whether you’re expanding to a second branch or organizing services by location, daSalon helps you create, manage, and monitor multiple business addresses under one account.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "/update",
       },
     ],
@@ -65,14 +64,14 @@ const helpTopics: HelpTopic[] = [
         title: "Join a workspace",
         description:
           "Accept an invitation to join your team’s workspace as a staff member. Gain access to appointments, clients, and settings based on your assigned role.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "/create",
       },
       {
         title: "Leave a workspace as a team member",
         description:
           "Step away from a workspace when you no longer need access. Your account remains intact, and you can always join another team or create your own workspace.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "/create",
       },
     ],
@@ -84,14 +83,14 @@ const helpTopics: HelpTopic[] = [
         title: "Change ownership of your workspaces",
         description:
           "Easily transfer ownership of your daSalon workspace to another team member. Ideal for business transitions or when responsibilities shift within your team.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "/create",
       },
       {
         title: "Delete a workspace as an owner",
         description:
           "Permanently remove a workspace when it's no longer needed. Be sure to export any data beforehand—this action can't be undone.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "/create",
       },
     ],

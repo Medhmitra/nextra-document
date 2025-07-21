@@ -10,7 +10,6 @@ import Link from "next/link";
 interface HelpItem {
   title: string;
   description: string;
-  image: string;
   Link: string;
 }
 
@@ -27,56 +26,50 @@ const helpTopics: HelpTopic[] = [
         title: "Create client profiles",
         description:
           "Capturing complete and accurate client info ensures smooth appointment booking, personalized communication, and better tracking.",
-        image:
-          "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "client/createclient",
       },
       {
         title: "Update client details",
         description:
           "Ensures client records stay up-to-date, especially if they move, change contact details, or provide special instructions.",
-        image:
-          "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "client/updateclient",
       },
       {
         title: " View Client Details",
         description:
           "Helps you understand the client’s purchase habits, loyalty, and preferences—perfect for offering customized services or promotions.",
-        image:
-          "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
+          
         Link: "client/viewclient",
       },
       {
         title: "Add Appointment from Client Page",
         description:
           "Saves time! No need to search the client again when booking—it’s all linked and ready to go.",
-        image:
-          "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "client/addappoint",
       },
       {
         title: " Add Sale from Client Page",
         description:
           "Track wallet balances, issue store credits, and manage client loyalty rewards or points directly from their profile.",
-        image:
-          "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+       
         Link: "client/addsale",
       },
       {
         title: "Block clients",
         description:
           "Helps you handle misuse, no-shows, or policy violations. Maintain control over who can access your services.",
-        image:
-          "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "client/blockclient",
       },
       {
         title: "Unblock clients",
         description:
           "Offers flexibility. You can easily re-enable clients without losing their history or records.",
-        image:
-          "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "client/unblockclient",
       },
     ],

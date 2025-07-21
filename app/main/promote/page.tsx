@@ -11,7 +11,6 @@ import Link from "next/link";
 interface HelpItem {
   title: string;
   description: string;
-  image: string;
   Link: string;
 }
 
@@ -29,35 +28,35 @@ const helpTopics: HelpTopic[] = [
         title: "Add a Get Featured Request",
         description:
           "To increase visibility and attract more bookings by promoting your salon on da Salon's spotlight section.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/addgetfeatured",
       },
       {
         title: "Approved Status",
         description:
           "Confirms your campaign is live, so clients start seeing your venue immediately.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/approvedgf",
       },
       {
         title: "Completed Status",
         description:
           " Indicates the featured listing period has ended—helps analyze results and plan future campaigns.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/completedgf",
       },
       {
         title: "Pending Status",
         description:
           "Lets you plan promotions in advance, ensuring a smooth start when the time comes.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/pendinggf",
       },
       {
         title: "In Progress Status",
         description:
           " Notifies that your venue is actively featured and benefiting from increased client visibility.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/inprogressgf",
       },
     ],
@@ -69,14 +68,14 @@ const helpTopics: HelpTopic[] = [
         title: "Create Easy Share Link",
         description:
           "To quickly generate links clients can use to book services—ideal for WhatsApp, SMS, or Instagram.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/createeasyshare",
       },
       {
         title: "Use Easy Share Link/QR",
         description:
           "Makes it easy to promote your salon offline and online with scannable, sharable codes.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/useeasyshare",
       },
     ],
@@ -88,21 +87,21 @@ const helpTopics: HelpTopic[] = [
         title: "Create New Template",
         description:
           "Allows you to launch a campaign from scratch or a template without hiring a designer.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/createcreativestudio",
       },
       {
         title: "Edit Template",
         description:
           "Gives full creative control to personalize campaigns and reflect your brand style.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/edittemplatecs",
       },
       {
         title: "Download or Share",
         description:
           "Makes it easy to publish your creatives across platforms for maximum reach.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/sharetemplate",
       },
     ],
@@ -114,49 +113,49 @@ const helpTopics: HelpTopic[] = [
         title: "Client Engagement",
         description:
           "Automatically send greetings and welcome messages to clients on special occasions.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/clientengage",
       },
       {
         title: "Appointment Updates – Client",
         description:
           " Automatically inform clients about appointment status like cancellation, rescheduling, confirmation, and reminders.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/appointmentclient",
       },
       {
         title: "Appointment Updates – Partner",
         description:
           "Notify staff about new bookings, cancellations, or rescheduled appointments.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/appointmentpartner",
       },
       {
         title: "Sales Update – Partner",
         description:
           "Notify salon staff when a client purchases a gift card, voucher, or membership.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/salepartner",
       },
       {
         title: "Sales Update – Client",
         description:
           " Notify clients when they purchase an item like a voucher, gift card, or membership.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/salesclient",
       },
       {
         title: "Expiry Reminders – Client",
         description:
           " Remind clients when their gift cards, vouchers, or memberships are nearing expiry.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/expiryremainder",
       },
       {
         title: "Campaign Messages",
         description:
           "Launch promotional campaigns for services, offers, and products to a targeted audience.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/message",
       },
     ],
@@ -168,14 +167,14 @@ const helpTopics: HelpTopic[] = [
         title: "Add Ad",
         description:
           "Run targeted social media ads directly from your salon dashboard—no need for external tools.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/addAD",
       },
       {
         title: "View Ad Details",
         description:
           "Helps monitor your ad's performance so you can refine strategy and maximize ROI.",
-        image: "https://cdn.fresha.com/business/help/appointments/create-repeat-appointment.png",
+        
         Link: "Promote/ViewAD",
       },
     ],
